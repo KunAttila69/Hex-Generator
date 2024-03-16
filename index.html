@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="color"></div>
+        <div class="sliders-container">
+            <div class="slider"><h2>Red</h2><div class="slider-input"><input type="range" value="0" id="sliRed" max="255" oninput="UpdateValue(this,'valRed')"><p id="valRed">0</p></div></div>
+            <div class="slider"><h2>Green</h2><div class="slider-input"><input type="range" value="0" id="sliGreen" max="255" oninput="UpdateValue(this,'valGreen')"><p id="valGreen">0</p></div></div>
+            <div class="slider"><h2>Blue</h2><div class="slider-input"><input type="range" value="0" id="sliBlue" max="255" oninput="UpdateValue(this,'valBlue')"><p id="valBlue">0</p></div></div>
+        </div>
+        <div class="button-container"></div>
+    </main>
+</body>
+<script src="main.js"></script>
+</html>
