@@ -8,11 +8,29 @@
 </head>
 <body>
     <main>
-        <div id="color"></div>
+        <div id="screen"></div>
         <div class="sliders-container">
-            <div class="slider"><h2>Red</h2><div class="slider-input"><input type="range" value="0" id="sliRed" max="255" oninput="UpdateValue(this,'valRed')"><p id="valRed">0</p></div></div>
-            <div class="slider"><h2>Green</h2><div class="slider-input"><input type="range" value="0" id="sliGreen" max="255" oninput="UpdateValue(this,'valGreen')"><p id="valGreen">0</p></div></div>
-            <div class="slider"><h2>Blue</h2><div class="slider-input"><input type="range" value="0" id="sliBlue" max="255" oninput="UpdateValue(this,'valBlue')"><p id="valBlue">0</p></div></div>
+            <div class="slider">
+                <h2>Red</h2>
+                <div class="slider-input">
+                    <input type="range" value="0" id="sliRed" max="255" oninput="UpdateValue(this,'valRed')">
+                    <input type="number" id="valRed" value="0" oninput="UpdateValue(this,'sliRed')"/>
+                </div>
+            </div>
+            <div class="slider">
+                <h2>Green</h2>
+                <div class="slider-input">
+                    <input type="range" value="0" id="sliGreen" max="255" oninput="UpdateValue(this,'valGreen')">
+                    <input type="number" id="valGreen" value="0" oninput="UpdateValue(this,'sliGreen')"/>
+                </div>
+            </div>
+            <div class="slider">
+                <h2>Blue</h2>
+                <div class="slider-input">
+                    <input type="range" value="0" id="sliBlue" max="255" oninput="UpdateValue(this,'valBlue')">
+                    <input type="number" id="valBlue" value="0" oninput="UpdateValue(this,'sliBlue')"/>
+                </div>
+            </div>
         </div>
         <div class="button-container"></div>
     </main>
