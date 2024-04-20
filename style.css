@@ -78,7 +78,7 @@ main{
                 color: #fff;
                 border: none;
                 border-radius: 7.5px;
-                font-size: 1.5rem;
+                font-size: 1.35rem;
                 transition: all .5s;
                 &.selected{
                     outline: 2.5px solid white;
