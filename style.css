@@ -24,7 +24,7 @@ body{
 main{
     background-color: hsl(0, 0%, 20%);
     border-radius: 5px;
-    height: 60%;
+    height: 65%;
     width: 50%;
     padding: 1%;
     & #screen{
@@ -39,6 +39,7 @@ main{
             height: 35%;
             width: 100%;
             color: white;
+            padding-bottom: 5rem;
             & .slider-input{
                 display: flex;
                 width: 100%;
